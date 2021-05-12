@@ -5776,34 +5776,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kevin\\.nuget\\packages\\": {}
+    "C:\\Users\\Lntinfotech\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RiderProjects\\FluentBank\\BankingService.Tests\\BankingService.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.Tests\\BankingService.Tests.csproj",
       "projectName": "BankingService.Tests",
-      "projectPath": "D:\\RiderProjects\\FluentBank\\BankingService.Tests\\BankingService.Tests.csproj",
-      "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "D:\\RiderProjects\\FluentBank\\BankingService.Tests\\obj\\",
+      "projectPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.Tests\\BankingService.Tests.csproj",
+      "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\RiderProjects\\FluentBank\\BankingService.App\\BankingService.App.csproj": {
-              "projectPath": "D:\\RiderProjects\\FluentBank\\BankingService.App\\BankingService.App.csproj"
+            "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.App\\BankingService.App.csproj": {
+              "projectPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.App\\BankingService.App.csproj"
             }
           }
         }
@@ -5853,12 +5851,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
