@@ -37,7 +37,7 @@ namespace BankingService.Tests
         }
 
         [Fact]
-        public void WithdrawlPass_WhenBalance_IsHigherThanWithdrawalAmount()
+        public void WithdrawalPass_WhenBalance_IsHigherThanWithdrawalAmount()
         {
             //Given
             Account account = new Account("CX-3", "Monica", "Barns");
@@ -47,5 +47,19 @@ namespace BankingService.Tests
             //Then
             account.Balance.Should().Be(25);
         }
+        
+        [Fact]
+        public void Withdrawal_AddsToTransationList()
+        {
+            //given
+            Account account = new Account("CX-3", "Monica", "Barns");
+            int value = 25;
+            //when
+            account.Deposit(50);
+            account.Withdrawal(value);
+            //then
+            account.Transactions[1].Should().Be("Withdrawal: $25");
+        }
+        
     }
 }

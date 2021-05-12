@@ -39,6 +39,7 @@ namespace BankingService
             }
 
             _balance -= amount;
+            _transactions.Add($"Withdrawal: ${amount}");
         }
     }
 }
