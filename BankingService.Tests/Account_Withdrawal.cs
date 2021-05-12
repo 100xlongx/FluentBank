@@ -48,17 +48,19 @@ namespace BankingService.Tests
             account.Balance.Should().Be(25);
         }
         
-        [Fact]
-        public void Withdrawal_AddsToTransationList()
+        [Theory]
+        [InlineData(25)]
+        [InlineData(30)]
+        [InlineData(40)]
+        public void Withdrawal_AddsToTransationList(int value)
         {
             //given
             Account account = new Account("CX-3", "Monica", "Barns");
-            int value = 25;
             //when
             account.Deposit(50);
             account.Withdrawal(value);
             //then
-            account.Transactions[1].Should().Be("Withdrawal: $25");
+            account.Transactions[1].Should().Be($"Withdrawal: ${value}");
         }
         
     }
