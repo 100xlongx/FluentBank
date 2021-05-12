@@ -33,6 +33,10 @@ namespace BankingService
             if (amount > this.Balance) {
                 throw new ApplicationException("Cannot withdraw amount higher than balance.");
             }
+
+            if (amount < 0) {
+                throw new ApplicationException("Cannot withdraw negative amounts");
+            }
         }
     }
 }

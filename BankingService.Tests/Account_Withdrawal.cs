@@ -20,5 +20,20 @@ namespace BankingService.Tests
         .WithMessage("Cannot withdraw amount higher than balance.");
 
         }
+
+        [Fact]
+        public void WithdrawalFails_If_Amount_IsNegative()
+        {
+        //Given
+        Account account = new Account("CX-3", "Monica", "Barns");
+        
+        //When
+        Action withdrawal = () => account.Withdrawal(-50);
+        
+        //Then
+        withdrawal.Should().Throw<ApplicationException>()
+        .WithMessage("Cannot withdraw negative amounts");
+
+        }
     }
 }
