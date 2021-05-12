@@ -1,0 +1,12 @@
+C:\Users\Lntinfotech\galvanize\fluentBank\Banking\BankingService.App\bin\Debug\net5.0\BankingService.App.deps.json
+C:\Users\Lntinfotech\galvanize\fluentBank\Banking\BankingService.App\bin\Debug\net5.0\BankingService.App.dll
+C:\Users\Lntinfotech\galvanize\fluentBank\Banking\BankingService.App\bin\Debug\net5.0\ref\BankingService.App.dll
+C:\Users\Lntinfotech\galvanize\fluentBank\Banking\BankingService.App\bin\Debug\net5.0\BankingService.App.pdb
+C:\Users\Lntinfotech\galvanize\fluentBank\Banking\BankingService.App\obj\Debug\net5.0\BankingService.App.csprojAssemblyReference.cache
+C:\Users\Lntinfotech\galvanize\fluentBank\Banking\BankingService.App\obj\Debug\net5.0\BankingService.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lntinfotech\galvanize\fluentBank\Banking\BankingService.App\obj\Debug\net5.0\BankingService.App.AssemblyInfoInputs.cache
+C:\Users\Lntinfotech\galvanize\fluentBank\Banking\BankingService.App\obj\Debug\net5.0\BankingService.App.AssemblyInfo.cs
+C:\Users\Lntinfotech\galvanize\fluentBank\Banking\BankingService.App\obj\Debug\net5.0\BankingService.App.csproj.CoreCompileInputs.cache
+C:\Users\Lntinfotech\galvanize\fluentBank\Banking\BankingService.App\obj\Debug\net5.0\BankingService.App.dll
+C:\Users\Lntinfotech\galvanize\fluentBank\Banking\BankingService.App\obj\Debug\net5.0\ref\BankingService.App.dll
+C:\Users\Lntinfotech\galvanize\fluentBank\Banking\BankingService.App\obj\Debug\net5.0\BankingService.App.pdb
