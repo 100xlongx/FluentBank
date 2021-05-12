@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.Tests\\BankingService.Tests.csproj": {}
+    "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.Tests\\BankingService.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.App\\BankingService.App.csproj": {
+    "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.App\\BankingService.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.App\\BankingService.App.csproj",
+        "projectUniqueName": "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.App\\BankingService.App.csproj",
         "projectName": "BankingService.App",
-        "projectPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.App\\BankingService.App.csproj",
+        "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.App\\BankingService.App.csproj",
         "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.App\\obj\\",
+        "outputPath": "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.Tests\\BankingService.Tests.csproj": {
+    "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.Tests\\BankingService.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.Tests\\BankingService.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.Tests\\BankingService.Tests.csproj",
         "projectName": "BankingService.Tests",
-        "projectPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.Tests\\BankingService.Tests.csproj",
+        "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.Tests\\BankingService.Tests.csproj",
         "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.App\\BankingService.App.csproj": {
-                "projectPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.App\\BankingService.App.csproj"
+              "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.App\\BankingService.App.csproj": {
+                "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.App\\BankingService.App.csproj"
               }
             }
           }

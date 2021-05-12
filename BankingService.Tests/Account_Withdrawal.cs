@@ -62,6 +62,6 @@ namespace BankingService.Tests
             //then
             account.Transactions[1].Should().Be($"Withdrawal: ${value}");
         }
-        
+   
     }
 }
