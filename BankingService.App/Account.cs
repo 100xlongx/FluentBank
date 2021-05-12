@@ -37,6 +37,8 @@ namespace BankingService
             if (amount < 0) {
                 throw new ApplicationException("Cannot withdraw negative amounts");
             }
+
+            _balance -= amount;
         }
     }
 }

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.App\\BankingService.App.csproj": {}
+    "D:\\RiderProjects\\FluentBank\\BankingService.App\\BankingService.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.App\\BankingService.App.csproj": {
+    "D:\\RiderProjects\\FluentBank\\BankingService.App\\BankingService.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.App\\BankingService.App.csproj",
+        "projectUniqueName": "D:\\RiderProjects\\FluentBank\\BankingService.App\\BankingService.App.csproj",
         "projectName": "BankingService.App",
-        "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.App\\BankingService.App.csproj",
-        "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lntinfotech\\galvanize\\fluentBank\\Banking\\BankingService.App\\obj\\",
+        "projectPath": "D:\\RiderProjects\\FluentBank\\BankingService.App\\BankingService.App.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "D:\\RiderProjects\\FluentBank\\BankingService.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,6 +49,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

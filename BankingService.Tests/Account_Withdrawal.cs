@@ -35,5 +35,17 @@ namespace BankingService.Tests
         .WithMessage("Cannot withdraw negative amounts");
 
         }
+
+        [Fact]
+        public void WithdrawlPass_WhenBalance_IsHigherThanWithdrawalAmount()
+        {
+            //Given
+            Account account = new Account("CX-3", "Monica", "Barns");
+            //When
+            account.Deposit(50);
+            account.Withdrawal(25);
+            //Then
+            account.Balance.Should().Be(25);
+        }
     }
 }
