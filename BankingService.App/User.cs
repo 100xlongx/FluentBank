@@ -1,5 +1,3 @@
-using System;
-
 namespace BankingService
 {
     public struct User
@@ -7,6 +5,9 @@ namespace BankingService
         public string First;
         public string Last;
 
-        public override string ToString() => $"{First} {Last}";
+        public override string ToString()
+        {
+            return $"{First} {Last}";
+        }
     }
 }

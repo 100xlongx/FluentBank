@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace BankingService.Tests
@@ -8,7 +7,6 @@ namespace BankingService.Tests
         [Fact]
         public void Test1()
         {
-
         }
     }
 }

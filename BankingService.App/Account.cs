@@ -5,41 +5,36 @@ namespace BankingService
 {
     public class Account
     {
-        private decimal _balance;
-        private List<string> _transactions;
-        public decimal Balance{
-            get { return _balance; } 
+        public Account(string id, string first, string last)
+        {
+            Balance = 0;
+            Id = id;
+            Owner = new User {First = first, Last = last};
+            Transactions = new List<string>();
         }
-        public List<string> Transactions { 
-            get { return _transactions; } 
-        }
+
+        public decimal Balance { get; private set; }
+
+        public List<string> Transactions { get; }
+
         public string Id { get; set; }
         public User Owner { get; set; }
-        public Account(string id, string first, string last){
-            _balance = 0;
-            Id = id;
-            Owner = new User{ First = first, Last = last };
-            _transactions = new List<string>();
-        }
-        public void Deposit(decimal amount){
-            if (amount < 0){
-                throw new ApplicationException("Cannot deposit negative amounts");
-            }
-            _balance += amount;
-            _transactions.Add($"Deposit: ${amount}");
+
+        public void Deposit(decimal amount)
+        {
+            if (amount < 0) throw new ApplicationException("Cannot deposit negative amounts");
+            Balance += amount;
+            Transactions.Add($"Deposit: ${amount}");
         }
 
-        public void Withdrawal(decimal amount) {
-            if (amount > this.Balance) {
-                throw new ApplicationException("Cannot withdraw amount higher than balance.");
-            }
+        public void Withdrawal(decimal amount)
+        {
+            if (amount > Balance) throw new ApplicationException("Cannot withdraw amount higher than balance.");
 
-            if (amount < 0) {
-                throw new ApplicationException("Cannot withdraw negative amounts");
-            }
+            if (amount < 0) throw new ApplicationException("Cannot withdraw negative amounts");
 
-            _balance -= amount;
-            _transactions.Add($"Withdrawal: ${amount}");
+            Balance -= amount;
+            Transactions.Add($"Withdrawal: ${amount}");
         }
     }
 }

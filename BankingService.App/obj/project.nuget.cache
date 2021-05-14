@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oei09KxNtua6/foSbkeXvgi7EFecd7UQp5MT2RcAEQdWlBXR6HTidp41eEGhwm9cTce7PW6EB/oYypeVx6lJnw==",
+  "dgSpecHash": "vI+2uj0Mqw3e+9SsBhbpDjmudVIxFunypMzPjWPtzCf7ObnVa74feHWN7jN3Iz83AJ42PG9FfIB8ddbJPbSfTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Banking\\fluentbank\\BankingService.App\\BankingService.App.csproj",
+  "projectFilePath": "D:\\RiderProjects\\FluentBank\\BankingService.App\\BankingService.App.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

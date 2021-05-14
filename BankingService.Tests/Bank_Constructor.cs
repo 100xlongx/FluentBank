@@ -1,23 +1,26 @@
-using System;
 using System.Collections.Generic;
-using Xunit;
 using BankingService;
 using FluentAssertions;
+using Xunit;
 
-namespace BankService.Tests {
-    public class Bank_Constructor {
+namespace BankService.Tests
+{
+    public class Bank_Constructor
+    {
         [Fact]
-        public void Should_InitializeANewBank_NotBeNull() {
-            Bank bank = new Bank();
+        public void Should_InitializeANewBank_NotBeNull()
+        {
+            var bank = new Bank();
 
             bank.Should().NotBeNull();
         }
 
         [Fact]
-        public void ShouldDeclareAccountList() {
-            Bank bank = new Bank();
+        public void ShouldDeclareAccountList()
+        {
+            var bank = new Bank();
 
-            List<Account> accountList = bank.accountList;
+            List<Account> accountList = bank.AccountList;
 
             accountList.Should().NotBeNull();
         }
@@ -26,50 +29,49 @@ namespace BankService.Tests {
         public void BankIsEmptyAtInit()
         {
             //Given
-            Bank bank = new Bank();
-            
+            var bank = new Bank();
+
             //When
-            
+
             //Then
-            bank.accountList.Count.Should().Be(0);
+            bank.AccountList.Count.Should().Be(0);
         }
 
         [Fact]
         public void BankContainsOneAccount()
         {
             //Given
-            Bank bank = new Bank();
-            Account account = new Account("1", "Pickle", "Rick");
+            var bank = new Bank();
+            var account = new Account("1", "Pickle", "Rick");
 
             //When
 
-            bank.addAccount(account);
-            
+            bank.AddAccount(account);
+
             //Then
 
-            bank.accountList.Should().Contain(account);
-            bank.accountList.Count.Should().Be(1);
-
+            bank.AccountList.Should().Contain(account);
+            bank.AccountList.Count.Should().Be(1);
         }
 
         [Fact]
         public void BankHoldsManyAccounts()
         {
             //Given
-            Bank bank = new Bank();
-            Account account = new Account("1", "Pickle", "Rick");
-            Account account2 = new Account("2", "Minecraft", "Steve");
-            
+            var bank = new Bank();
+            var account = new Account("1", "Pickle", "Rick");
+            var account2 = new Account("2", "Minecraft", "Steve");
+
             //When
 
-            bank.addAccount(account);
-            bank.addAccount(account2);
-            
+            bank.AddAccount(account);
+            bank.AddAccount(account2);
+
             //Then
-            
-            bank.accountList.Should().Contain(account);
-            bank.accountList.Should().Contain(account2);
-            bank.accountList.Count.Should().Be(2);
+
+            bank.AccountList.Should().Contain(account);
+            bank.AccountList.Should().Contain(account2);
+            bank.AccountList.Count.Should().Be(2);
         }
     }
 }

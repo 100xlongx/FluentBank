@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BankingService.App
+﻿namespace BankingService.App
 {
     public class Class1
     {
