@@ -47,15 +47,15 @@ namespace BankingService.Tests
         }
 
         [Theory]
-        [InlineData(25)]
-        [InlineData(30)]
-        [InlineData(40)]
-        public void Withdrawal_AddsToTransationList(int value)
+        [InlineData(25, 50)]
+        [InlineData(30, 50)]
+        [InlineData(40, 50)]
+        public void Withdrawal_AddsToTransationList(int value, int depositAmount)
         {
             //given
             var account = new Account("CX-3", "Monica", "Barns");
             //when
-            account.Deposit(50);
+            account.Deposit(depositAmount);
             account.Withdrawal(value);
             //then
             account.Transactions[1].Should().Be($"Withdrawal: ${value}");
